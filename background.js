@@ -8,7 +8,7 @@ browser.tabs.query({
     currentWindow: true
 }, function (tabs) {
     browser.tabs.sendMessage(tabs[0].id, {
-        greeting: "hello"
+        content: "scrape"
     }, function (response) {
         if (response) {
             // console.log("Already there");

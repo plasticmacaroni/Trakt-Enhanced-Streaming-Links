@@ -3,7 +3,7 @@
   "description": "This extension adds to the default Trakt streaming links and attempts to find media on custom-defined locations.",
   "manifest_version": 2,
   "name": "Movie Finder",
-  "version": "1.1.1",
+  "version": "1.2",
   "homepage_url": "https://www.jeffs.site",
   "icons": {
     "48": "icons/border-48.png"
