@@ -27,5 +27,4 @@
     "default_title": "Movie Finder",
     "show_matches": ["*://*.trakt.tv/*"]
   }
-
 }

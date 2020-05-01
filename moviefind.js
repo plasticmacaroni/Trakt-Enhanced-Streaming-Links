@@ -58,7 +58,7 @@ function appendLinks(el) {
 
                         if (link.substring(0, 5).includes("http")) {
                             try {
-                                document.getElementById("insertPoint").innerHTML += '<a target="_blank" rel="nofollow" data-source="netflix" class="" href="' + link + '" data-original-title="" title=""><div class="trakt-icon-play2-thick"></div><div class="price">Search on <br>' + siteToSearch + '</div></a>';
+                                document.getElementById("insertPoint").innerHTML += '<a target="_blank" rel="nofollow" data-source="netflix" class="" href="' + link + '" data-original-title="" title=""><div class="icon btn-default"><div class="trakt-icon-play-circle" style="font-size:37px;"></div></div><div class="price">Search on <br>' + siteToSearch + '</div></a>';
                             } catch (err) {
                                 // console.log("Error:", err.message);
                             }
